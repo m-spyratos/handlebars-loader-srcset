@@ -155,7 +155,7 @@ module.exports = function (source) {
               var srcsetProperty = srcsetMatch.replace(',', '').trim();
               requireList.push('" + require(' +
                   loaderUtils.stringifyRequest(loaderApi, srcsetPath) +
-                  ') + "' + srcsetProperty);
+                  ') + " ' + srcsetProperty);
               startIndex = item.index + srcsetMatch.length;
             });
 
