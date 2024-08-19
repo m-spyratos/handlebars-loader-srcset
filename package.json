@@ -20,7 +20,7 @@
     "type": "git",
     "url": "git://github.com/m-spyratos/handlebars-loader-srcset.git"
   },
-  "version": "1.7.3",
+  "version": "1.7.4",
   "devDependencies": {
     "eslint": "^8.15.0",
     "eslint-config-prettier": "^8.5.0",
