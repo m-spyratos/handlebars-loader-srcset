@@ -1,14 +1,6 @@
 {
-  "name": "handlebars-loader",
-  "contributors": [
-    "Alan @altano",
-    "Tobias Koppers @sokra",
-    "Jason Anderson @diurnalist"
-  ],
-  "maintainers": [
-    "Paul Carduner @pcardune"
-  ],
-  "description": "handlebars loader module for webpack",
+  "name": "handlebars-loader-srcset",
+  "description": "Fork of handlebars-loader with srcset support",
   "dependencies": {
     "async": "^3.2.2",
     "fastparse": "^1.0.0",
@@ -26,7 +18,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/pcardune/handlebars-loader.git"
+    "url": "git://github.com/m-spyratos/handlebars-loader-srcset.git"
   },
   "version": "1.7.3",
   "devDependencies": {
@@ -40,9 +32,9 @@
     "sinon": "^14.0.0"
   },
   "bugs": {
-    "url": "https://github.com/pcardune/handlebars-loader/issues"
+    "url": "https://github.com/m-spyratos/handlebars-loader-srcset/issues"
   },
-  "homepage": "https://github.com/pcardune/handlebars-loader",
+  "homepage": "https://github.com/m-spyratos/handlebars-loader-srcset",
   "main": "index.js",
   "files": [
     "index.js",
